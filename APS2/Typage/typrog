@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+../Syntaxe/prologTerm $1 | swipl -s typeCheck.pl -g main_stdin
